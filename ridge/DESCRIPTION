@@ -1,0 +1,26 @@
+Package: ridge
+Type: Package
+Title: Lab7 assignment
+Version: 1.0
+Date: 2017-11-02
+Author: person("Priya", "Kurian", role = c("aut","cre"),email = "priyapullolickal@gmail.com")
+Maintainer: priya kurian<priyapullolickal@gmail.com>
+Description: A linear regression package in R and visulaze airport delay data
+License: CCO
+LazyData: true
+Suggests: testthat,
+          knitr,
+          rmarkdown
+Depends: R (>= 2.10),
+         dplyr,
+         ggplot2,
+         caret
+VignetteBuilder: knitr
+Imports: methods,
+         MASS,
+         mlbench,
+         caret,
+         leaps,
+         nycflights13,
+         bindrcpp
+RoxygenNote: 6.0.1
