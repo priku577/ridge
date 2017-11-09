@@ -14,7 +14,8 @@ Suggests: testthat,
 Depends: R (>= 2.10),
          dplyr,
          ggplot2,
-         caret
+         caret,
+         MASS
 VignetteBuilder: knitr
 Imports: methods,
          MASS,
