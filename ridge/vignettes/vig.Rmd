@@ -132,7 +132,7 @@ ridge$predict <- function (modelFit, newdata, submodels = NULL) {
 
 ##5. Find the best hyperparameter value for lambda using 10-fold cross-validation on the training set.
 
-```{r}
+```{r,eval=FALSE}
 library(MASS)
 fitControl <- caret::trainControl(method = "cv",
                                   number = 10)
